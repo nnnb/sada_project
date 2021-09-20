@@ -5,10 +5,10 @@
 # Importing and installig packages
 pip install pandas
 pip install numpy
-pip install natsort
+#pip install natsort
 import numpy as np
 import pandas as pd
-from natsort import index_natsorted
+#from natsort import index_natsorted
 
 
 # Uploading data from github
