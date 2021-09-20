@@ -125,4 +125,3 @@ top20_profit
 # Producing CSV data top 20 rows with the highest profit value
 top20_profit.to_csv("top20_profit.csv")
 
-run.sh
