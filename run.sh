@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-
+Python 2.7.5+ (default, Sep 19 2013, 13:48:49)
 pip install pandas
 pip install numpy
 #pip install natsort
