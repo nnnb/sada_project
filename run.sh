@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
+bash ./< script file >
 # Importing and installig packages
 pip install pandas
 pip install numpy
