@@ -5,22 +5,22 @@
 Python 2.7.5+ (default, Sep 19 2013, 13:48:49)
 pip install pandas
 pip install numpy
-#pip install natsort
+
 import numpy as np
 import pandas as pd
-#from natsort import index_natsorted
 
-# Uploading data from github
+
+
 data_original = pd.read_csv("https://gist.githubusercontent.com/bobbae/b4eec5b5cb0263e7e3e63a6806d045f2/raw/279b794a834a62dc108fc843a72c94c49361b501/data.csv")
 data_original.head()
 
 
-# Renaming the last two columns
+
 data_original.rename(columns={'Revenue (in millions)':'Revenue', 'Profit (in millions)':'Profit'}, inplace=True)
 data_original.columns
 
 
-# Counting the number of rows
+
 row_count = len(data_original)
 row_count
 
