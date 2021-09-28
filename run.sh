@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-# Importing and installig packages
+#Importing and installig packages
 pip install pandas
 pip install numpy
 #pip install natsort
