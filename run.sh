@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-bash ./< 
+
 # Importing and installig packages
 pip install pandas
 pip install numpy
@@ -122,4 +122,4 @@ top20_profit
 
 # Producing CSV data top 20 rows with the highest profit value
 top20_profit.to_csv("top20_profit.csv")
->
+
